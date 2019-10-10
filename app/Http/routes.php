@@ -23,8 +23,8 @@ Route::post('/cart', 'CartController@store')->name('cart.store');
 Route::delete('/cart/{product}', 'CartController@destroy')->name('cart.destroy');
 Route::post('/cart/switchToSaveForLater/{product}', 'CartController@switchToSaveForLater')->name('cart.switchToSaveForLater');
 
-Route::get('/product', 'ProductController@index')->name('shop.index');
-Route::get('/shop/{product}', 'ShopController@show')->name('shop.show');
+/*Route::get('/product', 'ProductController@index')->name('product.index');
+Route::get('/shop/{product}', 'ShopController@show')->name('product.show');*/
 
 Route::get('empty',function (){
         Cart::instance('saveForLate')->destroy();

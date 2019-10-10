@@ -14,7 +14,6 @@
             <span><a href="{{ route('shop.index') }}">Boutique</a></span>
             <i class="fa fa-chevron-right breadcrumb-separator"></i>
             <span>MacBook Pro</span>
-
         </div>
     </div>
  
@@ -46,42 +45,7 @@
         </div>
 
     </div> <!-- end product-section -->
-            <div class="container bg-light">
-                <div class="row text-center" style="padding-bottom: 15px;padding-top: 15px">
-                    <div class="col-sm-12 ">
-                    <h2 class=".text-left">Vous pouvez aissi aimer!!</h2>
-                    <p></p>
-                    </div>
-                    <div class="spacer">
-                       <p></p>
-                       <p></p> 
-                    </div>
-                    <div class="col-sm-3 text-center" style="margin-right:15px;border:1px solid;margin-left:120px;padding-top:10px">
-                        <p><img src="/img/laptop-6.JPG" alt="products" class="active" id="currentImage" style="width:155px">
-                        <h4 class="product-section-title">{{ $product->name }}</h4>
-                        <div class="product-section-price" style="font-size: 15px;">{{ $product->price.' fcfa' }}</div>
-                        </p>
-                    </div>
-                    <div class="col-sm-3 text-center" style="margin-right:15px;border:1px solid;padding-right: 2px;padding-top:10px">
-                        <p><img src="/img/laptop-7.JPG" alt="products" class="active" id="currentImage" style="width:155px">
-                        <h4 class="product-section-title">{{ $product->name }}</h4>
-                        <div class="product-section-price" style="font-size: 15px;">{{ $product->price.' fcfa' }}</div>
-                        </p>
-                    </div>
-                    <div class="col-sm-3 text-center" style="border:1px solid;padding-right: 2px;padding-top:10px"> 
-                        <p><img src="/img/laptop-8.JPG" alt="products" class="active" id="currentImage" style="width:155px">
-                        <h4 class="product-section-title">{{ $product->name }}</h4>
-                        <div class="product-section-price" style="font-size: 15px;">{{ $product->price.' fcfa' }}</div>
-                        </p>
-                    </div>
-                    <!-- <div class="col-sm-3 text-center" style="border:1px solid;">
-                        <p><img src="/img/laptop-9.JPG" alt="products" class="active" id="currentImage" style="width:155px">
-                        <h4 class="product-section-title">{{ $product->name }}</h4>
-                        <div class="product-section-price" style="font-size: 15px;">{{ $product->price.' fcfa' }}</div>
-                        </p>
-                    </div> -->
-                </div>
-            </div>
+   
     <script>
         (function(){
             const currentImage = document.querySelector('#currentImage');

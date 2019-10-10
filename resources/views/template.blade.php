@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <title> @yield('title')</title>
-    <meta ...>
    
     <!-- CSS + Font -->
     <link href="/img/favicon.ico" rel="SHORTCUT ICON" />
@@ -22,9 +21,10 @@
 
 <body>
 <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark justify-content-center">
-  <ul class="navbar-nav ">
+  <img src="img/01.png" style="height: 50px;width: 80px" alt="hero image">
+  <ul class="navbar-nav text-right">
     <li class="nav-item active ">
-      <a class="nav-link" href="#">JUMIA Commerce</a>
+      <a class="nav-link" href="{{ route('landing-page')}}">JUMIA Commerce</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="{{ route('shop.index')}}">Boutique</a>

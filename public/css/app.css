@@ -265,6 +265,7 @@ strong {
   background: #F5F5F5;
   border-bottom: 1px solid #CDCDCD;
   padding: 24px 0;
+  padding-top: 60px;
 }
 
 .breadcrumbs .breadcrumb-separator {
@@ -844,7 +845,7 @@ header.with-background .top-nav {
 }
 .navbar{
   font-weight: bold;
-  font-size: 28px;
+  font-size: 20px;
 }
 header.with-background .top-nav .logo {
   font-weight: bold;
@@ -869,7 +870,7 @@ header.with-background .hero {
 
 header.with-background .hero .hero-image {
   padding-left: 60px;
-  padding-top:45px;
+  padding-top:60px;
 }
 
 header.with-background .hero h1 {
@@ -1601,10 +1602,4 @@ h1.checkout-heading {
   padding-bottom:2px;
   padding-top: 5px;
   background-color:#fff; 
-}
-.cart-product img{
-  text-align: center;
-}
-body .container .bg-light .espace{
-  background-color:#dddddd; 
 }
